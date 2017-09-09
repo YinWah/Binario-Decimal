@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="CONVERSORPOTENCIAS">
+  <ClassDiagramComponents>
+    <Class name="Binario_Decimal" package="conversorpotencias" visibility="public" xPosition="222.0" yPosition="279.0">
+      <Fields>
+        <Field name="leer" type="Scanner" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="convertirBinaDeci" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="CONVERSORPOTENCIAS" package="conversorpotencias" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Decimal_Binario" package="conversorpotencias" visibility="public" xPosition="450.0" yPosition="279.0">
+      <Fields>
+        <Field name="leer" type="Scanner" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="convertirDeciBina" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation name="" source="conversorpotencias.CONVERSORPOTENCIAS" target="conversorpotencias.Binario_Decimal" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="" source="conversorpotencias.CONVERSORPOTENCIAS" target="conversorpotencias.Decimal_Binario" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
